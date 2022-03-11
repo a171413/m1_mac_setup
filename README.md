@@ -115,7 +115,7 @@ tmux を使用する際には、Iterm の設定が必要になるかも…？
 
 
 ```
-Preferencesを開き、（macなら⌘+,で起動できる） 
+Preferencesを開き、（macなら⌘,で起動できる） 
 1.
 General→Selection
 "Applications ing terminal may access clipboard" にチェックを入れる
