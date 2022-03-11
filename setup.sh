@@ -91,7 +91,7 @@ mkdir ~/.config
 mkdir ~/.config/fish
 touch ~/.config/fish/config.fish
 echo "source ~/m1_mac_setup/settings/.config.fish" >> ~/.config/fish/config.fish
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.config/fish/config.fish
+echo 'eval '(/opt/homebrew/bin/brew shellenv)'' >> ~/.config/fish/config.fish
 echo 'eval (/opt/homebrew/bin/brew shellenv)'
 
 echo "# install fisherman"
