@@ -106,9 +106,9 @@ curl -L http://get.oh-my.fish | fish
 curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
 echo "# change default shell"
-sudo sh -c "echo '/usr/local/bin/fish' >> /etc/shells"
-chsh -s /usr/local/bin/fish
-/usr/local/bin/fish
+sudo sh -c "echo '/opt/homebrew/bin/fish' >> /etc/shells"
+chsh -s /opt/homebrew/bin/fish
+/opt/homebrew/bin/fish
 
 # おそらくここで一旦切れる
 #<<COMMENTOUT
