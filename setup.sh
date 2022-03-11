@@ -94,18 +94,17 @@ echo "source ~/m1_mac_setup/settings/.config.fish" >> ~/.config/fish/config.fish
 echo "eval (/opt/homebrew/bin/brew shellenv)" >> ~/.config/fish/config.fish
 echo "eval (/opt/homebrew/bin/brew shellenv)"
 
+echo "# install omf"
+curl -L http://get.oh-my.fish | fish
+
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+
 echo "# install fisherman"
 curl -Lo ~/.config/fish/functions/fisher.fish --create-dirs git.io/fisherman
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 
 echo "# install fisherman plugin"
 fisher install rbenv pyenv fzf decors/fish-ghq
-
-echo "# install omf"
-curl -L http://get.oh-my.fish | fish
-
-
-curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
 
 echo "# change default shell"
 sudo sh -c "echo '/opt/homebrew/bin/fish' >> /etc/shells"
