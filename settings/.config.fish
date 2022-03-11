@@ -35,7 +35,7 @@ if status --is-interactive
       end
     end
   end
-  eval "tmux source ~/mac_setup/settings/.tmux.conf"
+  eval "tmux source ~/m1_mac_setup/settings/.tmux.conf"
 
   # --- alias start ---
   # git 
