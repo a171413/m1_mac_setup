@@ -13,6 +13,8 @@ if status --is-interactive
   set PATH ~/.goenv/shims $PATH
   set PATH ~/.local/bin $PATH
   set PATH ~/bin $PATH
+  set PATH /opt/homebrew/bin $PATH
+  set PATH /opt/homebrew/opt $PATH
 
   # kube
   set -x KUBECONFIG ~/.kube/config
