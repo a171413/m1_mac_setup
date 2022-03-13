@@ -63,8 +63,8 @@ if status --is-interactive
   alias kn="kubens"
 
   # vim
-  alias vim="vim -u ~/mac_setup/settings/.vimrc"
-  alias vi="vim -u ~/mac_setup/settings/.vimrc"
+  alias vim="vim -u ~/m1_mac_setup/settings/.vimrc"
+  alias vi="vim -u ~/m1_mac_setup/settings/.vimrc"
 
   # genaral
   alias bd="cd ../"
