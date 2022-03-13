@@ -59,9 +59,9 @@ brew install pyenv
 # https://golang.org/
 echo "# install goenv"
 git clone https://github.com/syndbg/goenv.git ~/.goenv
-echo 'export GOENV_ROOT="$HOME/.goenv"'
-echo 'export PATH="$GOENV_ROOT/bin:$PATH"'
-echo 'eval "$(goenv init -)"'
+echo 'export GOENV_ROOT="$HOME/.goenv"' >> ~/.config/fish/config.fish
+echo 'export PATH="$GOENV_ROOT/bin:$PATH"' >> ~/.config/fish/config.fish
+echo 'eval "$(goenv init -)"' >> ~/.config/fish/config.fish
 
 echo "# install go"
 goenv install 1.17.2
